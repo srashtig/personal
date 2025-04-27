@@ -104,6 +104,8 @@ footer {
         transform: translateY(0);
     }
 }
+/* Profile Image */
+
 .profile-img {
     width: 250px;
     height: 250px;
@@ -113,4 +115,26 @@ footer {
     margin: 0 auto 20px;
     display: block;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+/* Publications */
+
+.publication-list {
+    list-style: none;
+    padding: 0;
+}
+
+.publication-list li {
+    margin-bottom: 30px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+.publication-list li a {
+    color: #0077b6;
+    font-weight: bold;
+    text-decoration: none;
+}
+.publication-list li a:hover {
+    text-decoration: underline;
 }
