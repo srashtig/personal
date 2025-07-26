@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>ML for Gravitational‑Wave Lensing</title></head>
+<body>
+<article>
+  <h1>Scaling Up Lensing Detection with Machine Learning</h1>
+  <p><em>July 26, 2025 • Gravitational Waves • Machine Learning</em></p>
+
+  <p>Identifying <strong>strongly lensed gravitational‑wave events</strong> is both scientifically important and computationally challenging. Traditional Bayesian methods require pairwise parameter estimation for millions of signal pairs, which is infeasible.</p>
+
+  <h2>📌 The ML Pipeline</h2>
+  <ul>
+    <li>Generate <strong>Q‑transform spectrograms</strong> (time–frequency maps)</li>
+    <li>Generate <strong>Bayestar skymaps</strong> for rapid localization</li>
+    <li>Use a <strong>CNN (DenseNet)</strong> for signal feature extraction</li>
+    <li>Combine outputs with <strong>XGBoost</strong> classifiers to rank lensing candidates</li>
+  </ul>
+  <p>This hybrid model filters millions of candidate pairs in seconds while maintaining Bayesian-level accuracy.</p>
+
+  <h2>🎯 Visual Illustration</h2>
+  <img src="https://link.to/your-hosted/qtransform_example.png" alt="Q‑transform spectrograms" style="max-width:100%">
+  <p><em>Figure: Example of Q‑transform input images—a lensed pair (top row) and an unlensed pair (bottom row).</em></p>
+
+  <h2>🔧 Results & Impact</h2>
+  <p>The pipeline was validated on simulated non-spinning binary black hole signals with Gaussian noise. It saves orders of magnitude of computation—feasible for next-generation detectors like LISA and Einstein Telescope.</p>
+
+  <p>Stay tuned for open source code and live deployment!</p>
+</article>
+</body>
+</html>
